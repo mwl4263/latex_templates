@@ -1,0 +1,42 @@
+\title{Assignment Title} 
+\author{
+    Mason Lapine \\
+}
+\date{\today}
+
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace} %use \doublespace for double spacing
+\usepackage{listings} %inline code 
+\usepackage{hyperref} %urls and other links
+\usepackage{xcolor} %color
+\usepackage{sverb} %link txt files
+\usepackage{dirtytalk} %for quoting 
+\usepackage{graphicx} % for loading images
+\usepackage{indentfirst} %takes care of indent issues
+% Sets up links to look better
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue!50!red,
+    urlcolor=green!70!black
+    }
+    \begin{document}
+    \maketitle
+
+    \section{Introduction}
+    This is time for all good men to come to the aid of their party!
+
+    \paragraph{Outline \\}
+    This is an outline 
+    \section{Package Examples}
+    \begin{lstlisting}
+    pip3 install prospector
+    \end{lstlisting}
+    \graphicspath{{.}}
+    \begin{figure}[h]
+        \includegraphics[width=\textwidth]{image}
+    \end{figure}
+
+
+    \end{document}
+    This is never printeds
